@@ -14,11 +14,12 @@ export const Cairns = JSON.parse(`
         ],
         "base": "stations",
         "main": {
-            "temp": 300.15,
+            "temp": 20,
             "pressure": 1007,
             "humidity": 74,
-            "temp_min": 300.15,
-            "temp_max": 300.15
+            "temp_min": 10,
+            "temp_max": 30,
+            "background" : "lluvia.jpeg"
         },
         "visibility": 10000,
         "wind": {
@@ -59,11 +60,12 @@ export const Londres = JSON.parse(`
         ],
         "base": "stations",
         "main": {
-            "temp": 280.32,
+            "temp": 18,
             "pressure": 1012,
             "humidity": 81,
-            "temp_min": 279.15,
-            "temp_max": 281.15
+            "temp_min": 28,
+            "temp_max": 35,
+            "background" : "sol.jpeg"
         },
         "visibility": 10000,
         "wind": {
@@ -104,11 +106,12 @@ export const Denver = JSON.parse(`
         ],
         "base": "stations",
         "main": {
-            "temp": 280.32,
+            "temp": 20,
             "pressure": 1012,
             "humidity": 81,
-            "temp_min": 12.12,
-            "temp_max": 121
+            "temp_min": 12,
+            "temp_max": 26,
+            "background" : "nubes.jpeg"
         },
         "visibility": 10000,
         "wind": {
